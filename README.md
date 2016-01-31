@@ -40,7 +40,7 @@ import java.util.*;
 public class Main {
 
     /**
-     * Test this code by asking for a year and then having the GaussianEaster class compute the value.
+     * Test this code by asking for a year and then having the code compute the value.
      * 
      * @param args
      *            command line values. Not used in this example.
