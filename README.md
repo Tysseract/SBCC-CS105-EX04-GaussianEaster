@@ -34,7 +34,7 @@ package edu.sbcc.cs105;
 import java.util.*;
 
 /**
- * This class tests the GaussianEaster object.
+ * This class implments the GaussianEaster algorithm.
  *
  */
 public class Main {
@@ -57,7 +57,8 @@ For your code you can use this kind of case:
 
 Input Easter year: 2001
 Year: 2001 Month: 4 Day: 15
-The green text indicates the user input which in this case is 2001. The output is computed and output as shown.
+
+The output is computed and output as shown.
 
 Once you've written your code run the code by single clicking on **Main.java** in the package explorer and selecting **Run->Run** from the menu or using the keyboard shortcut. Examine the output. Does it do what you want? If not, how can you modify the code to do what you want?
 
