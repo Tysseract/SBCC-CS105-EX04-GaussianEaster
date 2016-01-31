@@ -48,7 +48,8 @@ public class Main {
     public static void main(String[] args) {
 
     }
-}```
+}
+```
 
 Now go through Main.java and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed.
 
