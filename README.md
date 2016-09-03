@@ -39,6 +39,19 @@ import java.util.*;
  */
 public class GaussianEaster {
 
+	/**
+	 * Compute the date of easter using the Gaussian formula.
+	 * 
+	 * @param year The year for which to comput the date
+	 * @return A formated string with the month and day of easter.
+	 */
+	public String computeDate(int year) {
+        String date = "";
+
+        	     
+        return date;
+    }
+	 
     /**
      * Test this code by asking for a year and then having the code compute the value.
      * 
