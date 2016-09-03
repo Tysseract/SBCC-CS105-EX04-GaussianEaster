@@ -40,7 +40,7 @@ public class GaussianEasterTester {
 
 	@Test
 	public void check2005() throws Exception {
-		assertEquals("Output should match!", "Year: Month: 3 Day: 27", GaussianEaster.computeDate(2005););
+		assertEquals("Output should match!", "Year: Month: 3 Day: 27", GaussianEaster.computeDate(2005));
 
 		totalScore += 1;
 	}
