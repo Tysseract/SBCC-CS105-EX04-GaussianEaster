@@ -45,7 +45,7 @@ public class GaussianEaster {
 	 * @param year The year for which to comput the date
 	 * @return A formated string with the month and day of easter.
 	 */
-	public String computeDate(int year) {
+	public static String computeDate(int year) {
         String date = "";
 
         	     
