@@ -6,9 +6,9 @@ The purpose of this assignment is for you to write more of your own comments and
 
 ### Problem Description
 
-The detailed description of this problem comes from the Programming Exercise P2.21 that is in the book (page 74).
+The detailed description of this problem comes from the Programming Exercise P2.21 that is in the book (page 74 and 75, of the _Late Objects_ version).
 
-This problem should be solved by writing all your code in `public static void main`. Your final variables should use the (terrible) variable names given in the programming project. You will want to implement the algorithm inside of the `main` method. All of the variables mentioned in the algorithm should be local variables. 
+This problem should be solved by writing all your code in `public static void main`. Your final variables should use the (terrible) variable names given in the programming project. You will want to implement the algorithm inside of the `computeDate` method. All of the variables mentioned in the algorithm should be local variables. 
 
 Using the test year of 2001 shown in the book the output should look like:
 
