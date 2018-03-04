@@ -18,10 +18,12 @@ import java.util.*;
  */
 public class GaussianEaster {
 
+	private static Scanner in1;
+
 	/**
 	 * Compute the date of easter using the Gaussian formula.
 	 * 
-	 * @param year The year for which to comput the date
+	 * @param year The year for which to compute the date
 	 * @return A formated string with the month and day of easter.
 	 */
 	public static String computeDate(int year) {
@@ -57,13 +59,14 @@ public class GaussianEaster {
      */
     public static void main(String[] args) {
 
-    	Scanner in = new Scanner(System.in);
+    	in1 = new Scanner(System.in);
     	
     	System.out.print("Enter Easter year: ");
-    	int year = in.nextInt();
+    	int year = in1.nextInt();
     	
     	System.out.print("Year: " + year + " ");
     	
+    	/** if to break absurd value
     	if (year < 0) {
     		System.out.print("Before 0 AD, Jesus hadn't been born yet, let alone risen from the dead. Try again? press \"y\" then \"enter\" to continue or any other key then \"enter\" to enter a different year. ");
     		
@@ -71,7 +74,7 @@ public class GaussianEaster {
     		System.out.print("Just confirming that you didnt add one too many digits. Try again? press \"y\" then \"enter\" to continue or any other key then \"enter\" to enter a different year. ");
     		
     	}
-    	 
+    	**/
     	
     	String date = computeDate(year);
     	
